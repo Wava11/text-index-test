@@ -1,0 +1,19 @@
+{
+  "name": "tsdx",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build:watch": "tsc -w",
+    "tsc:init": "tsc --init"
+  },
+  "author": "Matan Shaked",
+  "license": "ISC",
+  "dependencies": {
+    "mongodb": "^5.1.0",
+    "zod": "^3.19.1"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.2"
+  }
+}
